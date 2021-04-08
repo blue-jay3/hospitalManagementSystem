@@ -8,7 +8,7 @@ import java.util.Properties;
 
 public class ConnectToDatabase {
 
-    ConnectToDatabase() throws SQLException { // create a default constructor and throw any sql exceptions
+    ConnectToDatabase() throws SQLException { // create a default constructor and throw the sql exceptions
 
         Properties login = new Properties(); // create a new properties object to store the sql login information
         try {
