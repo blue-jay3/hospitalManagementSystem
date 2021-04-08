@@ -22,7 +22,7 @@ public class ConnectToDatabase {
         String password = login.getProperty("password");
         String url = "jdbc:mysql://localhost:3306/hospital?autoReconnect=true&useSSL=false";
 
-        Connection myConn = DriverManager.getConnection(url, username, password); // connect to the database
+        Connection myConn = DriverManager.getConnection(url, username, password); // connect to database
         Statement myStatement = myConn.createStatement(); // create a statement to execute commands
         System.out.println ("Database connection established");
 
